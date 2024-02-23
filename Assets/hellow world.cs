@@ -16,6 +16,6 @@ public class hellowworld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Character.takeDamage();
     }
 }

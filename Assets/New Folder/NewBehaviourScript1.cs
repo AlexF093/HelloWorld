@@ -8,7 +8,11 @@ public class Character
 {
     public Character(string name, int vida, Boolean vivo)
     {
-        Debug.Log("Hola soy " + name + " tengo " + vida + " puntos de vida "+ "y estoy " + vivo);
+        Debug.Log("Hola soy " + name + " tengo " + vida + " puntos de vida " + "y estoy " + vivo);
+    }
+
+    public takeDamage(){
+
     }
         
     
